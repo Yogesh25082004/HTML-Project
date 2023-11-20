@@ -1,0 +1,269 @@
+body {
+    background-color: white;
+    background: position x 30px;
+    overflow-x:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    display: inline-flex;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.sign-in{
+    text-align: right;
+    margin-left:70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60%;
+}
+
+.p {
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 30px;   
+    background-color:lavenderblush;
+    margin-left: -20px;
+    margin-top: -10px;
+    margin-right: -7px;
+    word-spacing: 20px;
+    margin-bottom: -9.5px;
+      
+}
+
+
+.test{
+    font-size: 50px;
+}
+
+.demo {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-style:ridge;
+
+}
+
+.one {
+    margin-left: -40px;
+    margin-right: -40px;
+
+}
+
+.vision{
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.header{
+    position: sticky;
+    top: 0% ;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.d {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+    background-color: lavenderblush;
+    margin-left: -20px;
+    margin-top: -30px;
+    margin-right: -7px;
+    word-spacing: 40px;
+    padding-bottom: 2px;
+    
+}
+.d menu ol ls:nth-child(1)::after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    left: 440px;
+    transform: scaleX(0);
+    transition: all ease 0.5s;
+    bottom: 20px;
+    background: black;
+    position: absolute;
+    transform-origin: bottom right;
+
+
+}
+.d menu ol ls:nth-child(2)::after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    left: 590px;
+    transform: scaleX(0);
+    transition: all ease 0.5s;
+    bottom: 20px;
+    background: black;
+    position: absolute;
+    transform-origin: bottom right;
+
+
+}
+.d menu ol ls:nth-child(3)::after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    left: 750px;
+    transform: scaleX(0);
+    transition: all ease 0.5s;
+    bottom: 20px;
+    background: black;
+    position: absolute;
+    transform-origin: bottom right;
+
+
+}
+
+.d menu ol ls:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.core {
+    font-size: 40px;
+}
+
+
+.bottom-signin , .hr ,.middle{
+    text-align: center;
+    background-color:blue;
+    margin-top: 10px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+.submit {
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+  }
+
+.sign {
+    text-align:right;
+}
+/*
+.w {
+    background-size: cover;
+    width: 1264px;
+    height: 720px;
+    margin-left: -8px;
+    margin-top: -47px;
+    
+}
+*/
+
+.sol {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.first {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Change {
+    margin-top: -100%;
+    margin-left: 50%;
+    width: 540px;
+    height: 320px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all {
+    width: 1360px;
+    height: 640px;
+    margin-left: -30px;
+    margin-right: 50px;
+}
+.second {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.Learn {
+    width: 540px;
+    height: 320px;
+    margin-left: 50%;
+    margin-top: -15%;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.q {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+
+.line {
+    border: 1px solid white;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+.thr {
+    border: 1px solid black;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-instagram {
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+}
+
+.foot{
+    display: inline-flex;
+}
+.footer-nav{
+    display:inline-flex;
+    text-align: center;
+}

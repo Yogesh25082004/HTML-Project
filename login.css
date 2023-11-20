@@ -1,0 +1,253 @@
+body {
+    background-color: white;
+    background: position x 30px;
+    overflow-x:hidden;
+}
+
+.logo{
+    display: inline-flex;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.sign-in{
+    text-align: right;
+    margin-left:70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60%;
+}
+
+.p {
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 30px;   
+    background-color: lavenderblush;
+    margin-left: -20px;
+    margin-top: -30px;
+    margin-right: -7px;
+    word-spacing: 20px;
+    margin-bottom: -9.5px;
+    padding-bottom: 3px;
+    
+}
+
+.test{
+    font-size: 50px;
+}
+
+.sipara {
+  margin-top: 300px;
+}
+
+.vision{
+    font-size: 60px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.d {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 30px;
+    background-color: lavenderblush;
+    margin-left: -20px;
+    margin-top: -30px;
+    margin-right: -7px;
+    word-spacing: 40px;
+    padding-bottom: 1px;
+}
+.d menu ol ls:nth-child(1)::after{
+  content: '';
+  width: 10%;
+  height: 2px;
+  left: 440px;
+  transform: scaleX(0);
+  transition: all ease 0.5s;
+  bottom: 20px;
+  background: black;
+  position: absolute;
+  transform-origin: bottom right;
+
+
+}
+.d menu ol ls:nth-child(2)::after{
+  content: '';
+  width: 10%;
+  height: 2px;
+  left: 590px;
+  transform: scaleX(0);
+  transition: all ease 0.5s;
+  bottom: 20px;
+  background: black;
+  position: absolute;
+  transform-origin: bottom right;
+
+
+}
+.d menu ol ls:nth-child(3)::after{
+  content: '';
+  width: 10%;
+  height: 2px;
+  left: 750px;
+  transform: scaleX(0);
+  transition: all ease 0.5s;
+  bottom: 20px;
+  background: black;
+  position: absolute;
+  transform-origin: bottom right;
+
+
+}
+
+.d menu ol ls:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sign {
+    text-align:right;
+}
+/* Forms css */
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  .para {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  h1, p {
+    margin: 1em auto;
+    text-align: left;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  .submit {
+    margin-left: 110px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+
+  }
+
+  #first-name,#last-name,#email,#phone-number,#new-password {
+    border-radius: 4px;
+  }
+
+  .first {
+    border-color: #bc1888;
+    border-width: -10px;
+    border-style: solid;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -800px;
+    border-radius: 4px;
+
+  }
+  
+  .para1 {
+    margin-top: 10%;
+    margin-left: 50px;
+  }
+
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+  
+  .terms-and-conditions { page:"a"; 
+  color: #dfdfe2;
+  } 
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+
+  img {
+    background-attachment:fixed;
+    width: 520px;
+    height: 640px;
+    margin-left: 35px;
+    border-radius: 4px;
+}
+/* for menu hover */
